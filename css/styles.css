@@ -58,7 +58,7 @@ body {
 .header {
     padding-top: 23px;
     padding-bottom: 28px;
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 .header-container {
     display: flex;
