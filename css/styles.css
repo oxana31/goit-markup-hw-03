@@ -142,10 +142,11 @@ body {
 
 /* HERO */
 .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+
     background-color: var(--background-dark);
     text-align: center;
-
-    padding: 200px;
 }
 .hero-title {
     width: 696px;
@@ -279,8 +280,12 @@ margin-right: 30px;
     line-height: 1.9;
 }
 /* ======END MAIN PORTFOLIO======= */
+
+
 /* ===== START FOTTER===== */
 .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: var(--background-dark);
 }
 .second-logo {
@@ -290,11 +295,14 @@ margin-right: 30px;
     line-height: 1.2;
 }
 .address {
+    margin-top: 20px;
     font-style: normal;
     font-size: 14px;
     line-height: 1.7; 
 }
-
+.address-list-item:not(:last-child) {
+    margin-bottom: 9px;
+}
 .address-link {
     color: var(--primary-white-color);
 }
