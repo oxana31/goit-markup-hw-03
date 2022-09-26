@@ -56,14 +56,13 @@ body {
 
 /* ======== START HEADER========== */
 .header {
-    padding-top: 23px;
-    padding-bottom: 28px;
+    padding-top: 24px;
+    padding-bottom: 25px;
     border-bottom: 1px solid #ECECEC;
 }
 .header-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .navigation {
@@ -121,7 +120,7 @@ body {
 }
 .contacts {
     display: flex;
-    justify-content: space-between;
+    margin-left: auto;;
 }
 .contact:hover,
 .contact:focus {
@@ -167,7 +166,6 @@ body {
     min-width: 216px ;
     padding: 10px 30px;
     margin-top: 30px;
-    border-radius: 4px;
     
     font-family: inherit;
     font-weight: 700;
@@ -190,6 +188,7 @@ body {
     display: flex;
 }
 .title-list {
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.1;
     text-transform: uppercase;
@@ -234,16 +233,20 @@ margin-right: 30px;
 
 .list-cards {
     display: flex;
-    justify-content: space-between;
+    column-gap: 30px;
     margin-top: 50px;
     border-radius: 0px 0px 4px 4px;
+
 }
 .list-card-item {
+flex-basis: calc((100%-3*30)/4);
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
+
+background-color:#fff;
 }
 .list-card-desc {
-    padding: 30px 70px;
+    padding: 30px;
 }
 .desc-card {
     margin-top: 10px;
@@ -274,7 +277,10 @@ border-radius: 0px 0px 4px 4px;
     justify-content: center;
     margin-bottom: 50px;
 }
-
+.button-list-item {
+    border-radius: 4px;
+    background-color: #F5F4FA;
+}
 .button-list-item:not(:last-child) {
     margin-right: 8px;
 }
